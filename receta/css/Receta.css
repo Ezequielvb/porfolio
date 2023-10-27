@@ -1,0 +1,47 @@
+/***************************************************/
+/*             style for Receta.html               */
+/*             author: Ezequiel Vargas             */
+/*             version:1.0                         */
+/*             coment: Receta de tarta de queso    */
+/***************************************************/
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: texto;
+    src: url();
+}
+
+* {box-sizing: border-box;} /*  el width incluye el padding  */
+body {background-color: #4f3737;
+    background-image: url(../img/2586.jpg);
+    background-size: 50%;
+}
+#wrapper {background-color: #ffc892;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        }
+h1 {font-family: titulo;
+    border:#4f3737 double;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0px 10px ;
+    text-shadow: 2px 4px 3px rgb(255, 228, 192);
+    }
+
+
+
+blockquote {border-left: 3px solid #4f3737;
+        font-style: italic;
+        padding: 10px;
+        background-color: #fdedd0;
+        box-shadow: 10px 10px 20px black;}
+
+dt {font-weight: bold;
+    font-size: 1.1em;
+    color: rgb(42, 41, 39);}
