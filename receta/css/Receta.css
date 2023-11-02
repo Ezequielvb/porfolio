@@ -16,22 +16,26 @@
 }
 
 * {box-sizing: border-box;} /*  el width incluye el padding  */
-body {background-color: #4f3737;
-    background-image: url(../img/2586.jpg);
-    background-size: 50%;
+body {
+    background-image: url(../img/fondo-de-madera.jpg);
+    background-size: 55%;
+    background-position: center top;
+    background-attachment: fixed;
 }
-#wrapper {background-color: #ffc892;
+#wrapper {background-image: url(../img/espacio-diseno-papel-textura-fondo.jpg);
         width: 80%;
         margin: auto;
         padding: 10px;
         }
 h1 {font-family: titulo;
     border:#4f3737 double;
-    width: 40%;
+    margin: auto;
+    margin-top: 4%;
+    width: 45%;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 0px 10px ;
-    text-shadow: 2px 4px 3px rgb(255, 228, 192);
+    padding: 10px 10px 10px;
+    text-shadow: 4px 4px 3px rgb(255, 228, 192);
     }
 
 
@@ -45,3 +49,15 @@ blockquote {border-left: 3px solid #4f3737;
 dt {font-weight: bold;
     font-size: 1.1em;
     color: rgb(42, 41, 39);}
+
+#tarta {
+    display: block;
+    margin: auto;
+    width: 50%;
+    box-shadow: 10px 10px 20px black;}
+
+#Valor{
+    border: #4f3737 double;
+    margin-right: 75%;
+    padding: 10px;
+}
