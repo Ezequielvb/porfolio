@@ -61,3 +61,12 @@ dt {font-weight: bold;
     margin-right: 75%;
     padding: 10px;
 }
+
+
+
+/*           Gestión de la responsividad           */
+
+@media only screen and (width<750px) {
+    #wrapper {width: 100%}
+    
+}
