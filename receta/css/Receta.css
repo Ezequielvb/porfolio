@@ -10,11 +10,6 @@
     src: url(../font/KaushanScript-Regular.ttf);
 }
 
-@font-face {
-    font-family: texto;
-    src: url();
-}
-
 * {box-sizing: border-box;} /*  el width incluye el padding  */
 body {
     background-image: url(../img/fondo-de-madera.jpg);
@@ -26,6 +21,7 @@ body {
         width: 80%;
         margin: auto;
         padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
         }
 h1 {font-family: titulo;
     border:#4f3737 double;
@@ -58,7 +54,8 @@ dt {font-weight: bold;
 
 #Valor{
     border: #4f3737 double;
-    margin-right: 60%;
+    background-color: #fdedd0;
+    margin-right: 83%;
     padding: 10px;
 }
 
